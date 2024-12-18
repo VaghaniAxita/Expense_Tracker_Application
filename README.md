@@ -91,23 +91,6 @@ ____________________________________________________
  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NjJkNDE1MTJlZGY0ZjU1M2ZiNTViMyIsImlhdCI6MTczNDUzMDExOSwiZXhwIjoxNzM3MTIyMTE5fQ.GuvWtrmShK-1v7hOfBmPvL1T74g3BT2varjMnStFEeg"
 }
 ```
-**Get All Users**
-- Route: GET /api/auth/allusers
-- Description: Fetch all registered users
-- Sample Response:
-    - Status: 200 OK
-    -  Body:
-```bash
- [
-  {
-    "_id": "648e61c7c5d1a6123c4f4a12",
-    "name": "John",
-    "email": "john@gmail.com",
-    "createdAt": "2024-12-01T08:23:45.123Z",
-    "updatedAt": "2024-12-01T08:23:45.123Z"
-  }
-]
-```
 
 ###  Expense Routes
 
